@@ -85,8 +85,8 @@ h1 {
 .button1 {
        top:20%;
        left:45%;
-       width:117px;
-       height:35px;
+       width:100px;
+       height:30px;
        position: absolute;
        z-index: 2;
         
@@ -95,7 +95,7 @@ h1 {
        top:30%;
        left:45%;
        width:100px;
-       height:17px;
+       height:15px;
        position: absolute;
        z-index: 2;
         
@@ -104,7 +104,7 @@ h1 {
        top:40%;
        left:45%;
        width:100px;
-       height:36px;
+       height:30px;
        position: absolute;
        z-index: 2;
         
@@ -113,7 +113,7 @@ h1 {
     top: 41%;
     left: 43%;
     width: 50px;
-    height: 36px;
+    height: 35px;
     position: absolute;
     z-index: 2;
 }
