@@ -82,6 +82,39 @@ h1 {
         color: white;
     }
 
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.button5:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+.button6 {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.button6:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+.button7 {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.button7:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
 .button1 {
        top:20%;
        left:45%;
@@ -117,6 +150,34 @@ h1 {
     position: absolute;
     z-index: 2;
 }
+
+.button5 {
+    top: 41%;
+    left: 43%;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    z-index: 2;
+}
+
+.button6 {
+    top: 41%;
+    left: 43%;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    z-index: 2;
+}
+
+.button7 {
+    top: 41%;
+    left: 43%;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    z-index: 2;
+}
+
 </style>
 
 
