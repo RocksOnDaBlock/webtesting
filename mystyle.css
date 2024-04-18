@@ -117,63 +117,63 @@ h1 {
 
 .button1 {
        top:20%;
-       left:45%;
+       left:40%;
        width:100px;
-       height:30px;
+       height:20px;
        position: absolute;
        z-index: 2;
         
      }
 .button2 {
        top:30%;
-       left:45%;
+       left:40%;
        width:100px;
-       height:15px;
+       height:20px;
        position: absolute;
        z-index: 2;
         
      }
 .button3 {
        top:40%;
-       left:45%;
+       left:40%;
        width:100px;
-       height:30px;
+       height:20px;
        position: absolute;
        z-index: 2;
         
      }
 .button4 {
     top: 50%;
-    left: 43%;
-    width: 50px;
-    height: 35px;
+    left: 40%;
+    width: 100px;
+    height: 20px;
     position: absolute;
     z-index: 2;
 }
 
 .button5 {
     top: 60%;
-    left: 43%;
-    width: 50px;
-    height: 35px;
+    left: 40%;
+    width: 100px;
+    height: 20px;
     position: absolute;
     z-index: 2;
 }
 
 .button6 {
     top: 70%;
-    left: 43%;
-    width: 50px;
-    height: 35px;
+    left: 40%;
+    width: 100px;
+    height: 20px;
     position: absolute;
     z-index: 2;
 }
 
 .button7 {
     top: 80%;
-    left: 43%;
-    width: 50px;
-    height: 35px;
+    left: 40%;
+    width: 100px;
+    height: 20px;
     position: absolute;
     z-index: 2;
 }
