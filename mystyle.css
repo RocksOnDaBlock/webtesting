@@ -147,6 +147,17 @@ input:valid {
   color: white;
 }
 
+.buttonResume {
+  background-color: white;
+  color: black;
+  border: 2px solid #AB822E;
+}
+
+.buttonResume:hover {
+  background-color: #AB822E;
+  color: white;
+}
+
 .buttonLogin {
        top:20%;
        left:40%;
@@ -221,6 +232,16 @@ input:valid {
      }
     
     .buttonInsta {
+       top:20%;
+       left:40%;
+       width:100px;
+       height:20px;
+       position: relative;
+       z-index: 2;
+        
+     }
+    
+       .buttonResume {
        top:20%;
        left:40%;
        width:100px;
