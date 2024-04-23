@@ -47,13 +47,13 @@ input:valid {
   cursor: pointer;
 }
 
-.button1 {
+.buttonLogin {
   background-color: white;
   color: black;
   border: 2px solid #04AA6D;
 }
 
-.button1:hover {
+.buttonLogin:hover {
   background-color: #04AA6D;
   color: white;
 }
@@ -147,7 +147,7 @@ input:valid {
   color: white;
 }
 
-.button1 {
+.buttonLogin {
        top:20%;
        left:40%;
        width:100px;
