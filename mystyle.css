@@ -69,25 +69,25 @@ input:valid {
   color: white;
 }
 
-.button3 {
+.buttonSnap {
   background-color: white;
   color: black;
   border: 2px solid #acdb10;
 }
 
-.button3:hover {
+.buttonSnap:hover {
   background-color: #acdb10;
   color: white;
 
 }
 
-.button4 {
+.buttonTwt {
   background-color: white;
   color: black;
   border: 2px solid #acdb10;
 }
 
-.button4:hover {
+.buttonTwt:hover {
         background-color: #acdb10;
         color: white;
     }
@@ -125,13 +125,13 @@ input:valid {
         color: white;
     }
 	
-	.button8 {
+	.buttonRpquick {
   background-color: white;
   color: black;
   border: 2px solid #04AA6D;
 }
 
-.button8:hover {
+.buttonRpquick:hover {
   background-color: #04AA6D;
   color: white;
 }
@@ -176,7 +176,7 @@ input:valid {
        z-index: 2;
         
      }
-.button3 {
+.buttonSnap {
        top:40%;
        left:40%;
        width:100px;
@@ -185,7 +185,7 @@ input:valid {
        z-index: 2;
         
      }
-.button4 {
+.buttonTwt {
     top: 50%;
     left: 40%;
     width: 100px;
@@ -221,7 +221,7 @@ input:valid {
     z-index: 2;
 }
 
-.button8 {
+.buttonRpquick {
        top:20%;
        left:40%;
        width:100px;
