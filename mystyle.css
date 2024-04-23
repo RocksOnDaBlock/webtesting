@@ -136,6 +136,17 @@ input:valid {
   color: white;
 }
 
+.buttonInsta {
+  background-color: white;
+  color: black;
+  border: 2px solid #FFC0CB;
+}
+
+.buttonInsta:hover {
+  background-color: #FFC0CB;
+  color: white;
+}
+
 .button1 {
        top:20%;
        left:40%;
@@ -200,6 +211,16 @@ input:valid {
 }
 
 .button8 {
+       top:20%;
+       left:40%;
+       width:100px;
+       height:20px;
+       position: relative;
+       z-index: 2;
+        
+     }
+    
+    .buttonInsta {
        top:20%;
        left:40%;
        width:100px;
