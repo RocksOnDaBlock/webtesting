@@ -58,14 +58,109 @@ input:valid {
   color: white;
 }
 
-.button2 {
+
+
+/* TWITCH LINK BUTTONS */
+.buttonShotz {
   background-color: white;
   color: black;
   border: 2px solid #008CBA;
 }
 
-.button2:hover {
+.buttonShotz:hover {
   background-color: #008CBA;
+  color: white;
+}
+
+.buttonBosch {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.buttonBosch:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+.buttonTaco {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.buttonTaco:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+.buttonRam {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.buttonRam:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+.buttonKeb {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.buttonKeb:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+.buttonClient {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.buttonClient:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+.buttonTwitch {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.buttonTwitch:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+
+/*END TWITCH LINK BUTTONS*/
+
+/* SOCIALS */
+.buttonInsta {
+  background-color: white;
+  color: black;
+  border: 2px solid #FFC0CB;
+}
+
+.buttonInsta:hover {
+  background-color: #FFC0CB;
+  color: white;
+}
+
+.buttonResume {
+  background-color: white;
+  color: black;
+  border: 2px solid #AB822E;
+}
+
+.buttonResume:hover {
+  background-color: #AB822E;
   color: white;
 }
 
@@ -92,40 +187,8 @@ input:valid {
         color: white;
     }
 
-.button5 {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
 
-.button5:hover {
-        background-color: #acdb10;
-        color: white;
-    }
-
-.button6 {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
-
-.button6:hover {
-        background-color: #acdb10;
-        color: white;
-    }
-
-.button7 {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
-
-.button7:hover {
-        background-color: #acdb10;
-        color: white;
-    }
-	
-	.buttonRpquick {
+.buttonRpquick {
   background-color: white;
   color: black;
   border: 2px solid #04AA6D;
@@ -136,28 +199,10 @@ input:valid {
   color: white;
 }
 
-.buttonInsta {
-  background-color: white;
-  color: black;
-  border: 2px solid #FFC0CB;
-}
 
-.buttonInsta:hover {
-  background-color: #FFC0CB;
-  color: white;
-}
 
-.buttonResume {
-  background-color: white;
-  color: black;
-  border: 2px solid #AB822E;
-}
-
-.buttonResume:hover {
-  background-color: #AB822E;
-  color: white;
-}
-
+/* BUTTON POS + SIZES */
+/* SOCIAL BUTTTONS */
 .buttonLogin {
        top:20%;
        left:40%;
@@ -167,15 +212,7 @@ input:valid {
        z-index: 2;
         
      }
-.button2 {
-       top:30%;
-       left:40%;
-       width:100px;
-       height:20px;
-       position: relative;
-       z-index: 2;
-        
-     }
+
 .buttonSnap {
        top:40%;
        left:40%;
@@ -194,7 +231,38 @@ input:valid {
     z-index: 2;
 }
 
-.button5 {
+.buttonInsta {
+       top:20%;
+       left:40%;
+       width:100px;
+       height:20px;
+       position: relative;
+       z-index: 2;
+        
+     }
+    
+ .buttonResume {
+       top:20%;
+       left:40%;
+       width:100px;
+       height:20px;
+       position: relative;
+       z-index: 2;
+        
+     }
+
+/* TWITCH LINK BUTTONS */
+.buttonShotz {
+       top:30%;
+       left:40%;
+       width:100px;
+       height:20px;
+       position: relative;
+       z-index: 2;
+        
+     }
+
+.buttonBosch {
     top: 60%;
     left: 40%;
     width: 100px;
@@ -203,7 +271,7 @@ input:valid {
     z-index: 2;
 }
 
-.button6 {
+.buttonTaco {
     top: 70%;
     left: 40%;
     width: 100px;
@@ -212,7 +280,7 @@ input:valid {
     z-index: 2;
 }
 
-.button7 {
+.buttonRam {
     top: 80%;
     left: 40%;
     width: 100px;
@@ -221,6 +289,32 @@ input:valid {
     z-index: 2;
 }
 
+.buttonKeb {
+    top: 80%;
+    left: 40%;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.buttonClient {
+    top: 80%;
+    left: 40%;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.buttonTwitch {
+    top: 80%;
+    left: 40%;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    z-index: 2;
+}
 .buttonRpquick {
        top:20%;
        left:40%;
@@ -231,25 +325,7 @@ input:valid {
         
      }
     
-    .buttonInsta {
-       top:20%;
-       left:40%;
-       width:100px;
-       height:20px;
-       position: relative;
-       z-index: 2;
-        
-     }
-    
-       .buttonResume {
-       top:20%;
-       left:40%;
-       width:100px;
-       height:20px;
-       position: relative;
-       z-index: 2;
-        
-     }
+
 
 </style>
 
