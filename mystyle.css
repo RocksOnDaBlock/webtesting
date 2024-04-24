@@ -137,6 +137,17 @@ input:valid {
         background-color: #6441a5;
         color: white;
     }
+	
+.buttonTwitch2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #6441a5;
+}
+
+.buttonTwitch2:hover {
+        background-color: #6441a5;
+        color: white;
+    }
 
 
 /*END TWITCH LINK BUTTONS*/
@@ -208,7 +219,7 @@ input:valid {
        left:40%;
        width:100px;
        height:20px;
-       position: relative;
+       position: absolute;
        z-index: 2;
         
      }
@@ -218,25 +229,25 @@ input:valid {
        left:40%;
        width:100px;
        height:20px;
-       position: relative;
+       position: absolute;
        z-index: 2;
         
      }
 .buttonTwt {
-    top: 50%;
-    left: 40%;
+    top: 40%;
+    left: 50%;
     width: 100px;
     height: 20px;
-    position: relative;
+    position: absolute;
     z-index: 2;
 }
 
 .buttonInsta {
-       top:20%;
+       top:30%;
        left:40%;
        width:100px;
        height:20px;
-       position: relative;
+       position: absolute;
        z-index: 2;
         
      }
@@ -245,8 +256,8 @@ input:valid {
        top:20%;
        left:40%;
        width:100px;
-       height:30px;
-       position: relative;
+       height:20px;
+       position: absolute;
        z-index: 2;
         
      }
@@ -257,7 +268,7 @@ input:valid {
        left:40%;
        width:100px;
        height:20px;
-       position: relative;
+       position: absolute;
        z-index: 2;
         
      }
@@ -267,7 +278,7 @@ input:valid {
     left: 40%;
     width: 100px;
     height: 20px;
-    position: relative;
+    position: absolute;
     z-index: 2;
 }
 
@@ -276,7 +287,7 @@ input:valid {
     left: 40%;
     width: 100px;
     height: 20px;
-    position: relative;
+    position: absolute;
     z-index: 2;
 }
 
@@ -285,7 +296,7 @@ input:valid {
     left: 40%;
     width: 100px;
     height: 20px;
-    position: relative;
+    position: absolute;
     z-index: 2;
 }
 
@@ -294,7 +305,7 @@ input:valid {
     left: 40%;
     width: 100px;
     height: 20px;
-    position: relative;
+    position: absolute;
     z-index: 2;
 }
 
@@ -303,7 +314,7 @@ input:valid {
     left: 40%;
     width: 100px;
     height: 20px;
-    position: relative;
+    position: absolute;
     z-index: 2;
 }
 
@@ -312,19 +323,30 @@ input:valid {
     left: 40%;
     width: 100px;
     height: 20px;
-    position: relative;
+    position: absolute;
     z-index: 2;
 }
+
+.buttonTwitch2 {
+    top: 20%;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+
 .buttonRpquick {
-       top:20%;
-       left:40%;
+       top:30%;
+       left:50%;
        width:100px;
        height:20px;
-       position: relative;
+       position: absolute;
        z-index: 2;
         
      }
-    
+	 
 
 
 </style>
