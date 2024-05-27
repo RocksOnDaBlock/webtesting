@@ -2,8 +2,9 @@ body {
     background-color: teal;
 }
 
-.header h1{
+.header{
   color: #008AD8;
+  text-align: center;
 }
 
 .header p {
@@ -74,74 +75,7 @@ input:valid {
 }
 
 
-/* TWITCH LINK BUTTONS */
-.buttonShotz {
-  background-color: white;
-  color: black;
-  border: 2px solid #008CBA;
-}
 
-.buttonShotz:hover {
-  background-color: #008CBA;
-  color: white;
-}
-
-
-
-.buttonBosch {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
-
-.buttonBosch:hover {
-        background-color: #acdb10;
-        color: white;
-    }
-
-.buttonTaco {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
-
-.buttonTaco:hover {
-        background-color: #acdb10;
-        color: white;
-    }
-
-.buttonRam {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
-
-.buttonRam:hover {
-        background-color: #acdb10;
-        color: white;
-    }
-
-.buttonKeb {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
-
-.buttonKeb:hover {
-        background-color: #acdb10;
-        color: white;
-    }
-
-.buttonClient {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
-
-.buttonClient:hover {
-        background-color: #acdb10;
-        color: white;
-    }
 
 .buttonTwitch {
   background-color: white;
@@ -272,50 +206,7 @@ input:valid {
 /* TWITCH LINK BUTTONS */
 
 
-.buttonBosch {
-    top: 30%;
-    left: 70%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
 
-.buttonTaco {
-    top: 50%;
-    left: 40%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
-
-.buttonRam {
-    top: 50%;
-    left: 70%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
-
-.buttonKeb {
-    top: 70%;
-    left: 40%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
-
-.buttonClient {
-    top: 70%;
-    left: 70%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
 
 .buttonTwitch {
     top: 80%;

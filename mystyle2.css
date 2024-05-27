@@ -6,8 +6,9 @@
     overflow: hidden;
   }
 
-  .header h1{
+  .header{
     color: #df7512;
+    text-align: center;
   }
 
   .header p {
@@ -39,13 +40,13 @@
 .buttonShotz {
   background-color: white;
   color: black;
-  border: 2px solid #16a034;
+  border: 2px solid #acdb10;
   width:100px;
   height:60px;
 }
 
 .buttonShotz:hover {
-  background-color: #16a034;
+  background-color: #acdb10;
   color: white;
 }
 /* kebun */
@@ -67,10 +68,49 @@
   color: black;
   border: 2px solid #acdb10;
   width: 100px;
-  height: 20px;
+  height: 60px;
 }
 
 .buttonBosch:hover {
+  background-color: #acdb10;
+  color: white;
+}
+/* taco */
+.buttonTaco {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+  width: 100px;
+  height: 60px;
+}
+
+.buttonTaco:hover {
+  background-color: #acdb10;
+  color: white;
+}
+/* ramee */
+.buttonRam {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+  width: 100px;
+  height: 60px;
+}
+
+.buttonRam:hover {
+  background-color: #acdb10;
+  color: white;
+}
+/* client */
+.buttonClient {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+  width: 100px;
+  height: 80px;
+}
+
+.buttonClient:hover {
   background-color: #acdb10;
   color: white;
 }
@@ -85,42 +125,6 @@
 
 
 
-
-
-.buttonTaco {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
-
-.buttonTaco:hover {
-        background-color: #acdb10;
-        color: white;
-    }
-
-.buttonRam {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
-
-.buttonRam:hover {
-        background-color: #acdb10;
-        color: white;
-    }
-
-
-
-.buttonClient {
-  background-color: white;
-  color: black;
-  border: 2px solid #acdb10;
-}
-
-.buttonClient:hover {
-        background-color: #acdb10;
-        color: white;
-    }
 
 .buttonTwitch {
   background-color: white;
@@ -262,34 +266,12 @@
 
 
 
-.buttonTaco {
-    top: 50%;
-    left: 40%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
-
-.buttonRam {
-    top: 50%;
-    left: 70%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
 
 
 
-.buttonClient {
-    top: 70%;
-    left: 70%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
+
+
+
 
 .buttonTwitch {
     top: 80%;
