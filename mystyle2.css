@@ -1,0 +1,322 @@
+
+  body {
+    background-color: #008AD8;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .header h1{
+    color: #df7512;
+  }
+
+  .header p {
+    color: #6441a5;
+    text-align: center;
+  }
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+
+.buttonContainer {
+  text-align: center;
+}
+
+/* TWITCH LINK BUTTONS */
+/* shotz */
+.buttonShotz {
+  background-color: white;
+  color: black;
+  border: 2px solid #16a034;
+  width:100px;
+  height:60px;
+}
+
+.buttonShotz:hover {
+  background-color: #16a034;
+  color: white;
+}
+/* kebun */
+.buttonKeb {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+  width: 100px;
+  height: 60px;
+}
+
+.buttonKeb:hover {
+  background-color: #acdb10;
+  color: white;
+}
+/* bosch */
+.buttonBosch {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+  width: 100px;
+  height: 20px;
+}
+
+.buttonBosch:hover {
+  background-color: #acdb10;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttonTaco {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.buttonTaco:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+.buttonRam {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.buttonRam:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+
+
+.buttonClient {
+  background-color: white;
+  color: black;
+  border: 2px solid #acdb10;
+}
+
+.buttonClient:hover {
+        background-color: #acdb10;
+        color: white;
+    }
+
+.buttonTwitch {
+  background-color: white;
+  color: black;
+  border: 2px solid #6441a5;
+}
+
+.buttonTwitch:hover {
+        background-color: #6441a5;
+        color: white;
+    }
+
+.buttonTwitch2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #6441a5;
+}
+
+.buttonTwitch2:hover {
+        background-color: #6441a5;
+        color: white;
+    }
+
+
+/*END TWITCH LINK BUTTONS*/
+
+/* SOCIALS */
+.buttonInsta {
+  background-color: white;
+  color: black;
+  border: 2px solid #FFC0CB;
+}
+
+.buttonInsta:hover {
+  background-color: #FFC0CB;
+  color: white;
+}
+
+.buttonResume {
+  background-color: white;
+  color: black;
+  border: 2px solid #AB822E;
+}
+
+.buttonResume:hover {
+  background-color: #AB822E;
+  color: white;
+}
+
+.buttonSnap {
+  background-color: white;
+  color: black;
+  border: 2px solid #FFFF00;
+}
+
+.buttonSnap:hover {
+  background-color: #FFFF00;
+  color: white;
+
+}
+
+.buttonTwt {
+  background-color: white;
+  color: black;
+  border: 2px solid #008AD8;
+}
+
+.buttonTwt:hover {
+        background-color: #008AD8;
+        color: white;
+    }
+
+
+.buttonRpquick {
+  background-color: white;
+  color: black;
+  border: 2px solid #04AA6D;
+}
+
+.buttonRpquick:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+/* BUTTON POS + SIZES */
+/* SOCIAL BUTTTONS */
+.buttonLogin {
+       top:20%;
+       left:40%;
+       width:100px;
+       height:20px;
+       position: absolute;
+       z-index: 999;
+
+     }
+
+.buttonSnap {
+       top:40%;
+       left:40%;
+       width:100px;
+       height:20px;
+       position: absolute;
+       z-index: 2;
+
+     }
+.buttonTwt {
+    top: 40%;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+.buttonInsta {
+       top:30%;
+       left:40%;
+       width:100px;
+       height:20px;
+       position: absolute;
+       z-index: 2;
+
+     }
+
+ .buttonResume {
+       top:20%;
+       left:40%;
+       width:100px;
+       height:20px;
+       position: absolute;
+       z-index: 2;
+
+     }
+
+/* TWITCH LINK BUTTONS */
+
+
+
+
+.buttonTaco {
+    top: 50%;
+    left: 40%;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+.buttonRam {
+    top: 50%;
+    left: 70%;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+.buttonClient {
+    top: 70%;
+    left: 70%;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+.buttonTwitch {
+    top: 80%;
+    left: 40%;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+.buttonTwitch2 {
+    top: 20%;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.buttonRpquick {
+       top:30%;
+       left:50%;
+       width:100px;
+       height:20px;
+       position: absolute;
+       z-index: 2;
+
+     }
+

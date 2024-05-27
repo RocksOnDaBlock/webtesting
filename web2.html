@@ -1,72 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-<title>Twitch Quick Access</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle2.css">
+    <title>Twitch Quick Access</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        canvas {
+            position: absolute;
+        }
+    </style>
 </head>
-
 <body>
-	<!--heading 1 -->
-	<h1><center>Twitch Quick Access</center></h1>
-<br>
-	<!--paragraph 1 -->
-	<p><center>Choose who you'd like to watch below! :)</center></p>
-<br>
 
-
-
-
-<!--BUTTON 2 CONTROL-->
-<div class="container">
-<a
-href="https://twitch.tv/shotz"
-<button class="button buttonShotz">Shotz - "VINNY PISTONE"</button>
-</a>
-
-<!--Line Breaks-->
-
-
-
-<!--BUTTON 3 CONTROL-->
-<a
-href="https://twitch.tv/lord_kebun"
-<button class="button buttonKeb">Lord_Kebun - "MR.K"</button>
-</a>
-
-
-
-<!--BUTTON 4 CONTROL-->	
-<a
-href="https://www.twitch.tv/client"
-<button class="button buttonClient">CLIENT - "Peanut"</button>
-</a>
-
-
-<!--BUTTON 5 CONTROL-->
-<a
-href="https://www.twitch.tv/boschmerchant"
-<button class="button buttonBosch">BoschMerchant - "Anto Murphy"</button>
-</a>
-
-
-<!--BUTTON 6 CONTROL-->
-<a
-href="https://www.twitch.tv/officialtaco"
-<button class="button buttonTaco">OfficialTaco - "Taco Prince"</button>
-</a>
-
-	    
-<!--BUTTON 7 CONTROL-->
-<a
-href="https://twitch.tv/ramee"
-<button class="button buttonRam">Ramee - "Ramee EL-Rahman</button>
-</a>
+    <div class="header">
+    <h1><center>Twitch Quick Access</center></h1>
+    <p><center>Choose who you'd like to watch below! :)</center></p>
 </div>
 
+<div class="buttonContainer">
+    <!-- Button 1 -->
+    <a href="https://twitch.tv/shotz">
+        <button class="button buttonShotz">Shotz - "VINNY PISTONE"</button>
+    </a>
+    <br>
+    <!-- Button 2 -->
+    <a href="https://twitch.tv/lord_kebun">
+        <button class="button buttonKeb">Lord_Kebun - "MR.K"</button>
+    </a>
+    <br>
+    <!-- Button 3 -->
+    <a href="https://twitch.tv/boschmerchant">
+        <button class="button buttonKeb">BoschMerchant - "Anto Murphy"</button>
+    </a>
 
-
-
-
-
+    <!-- Add more buttons for other streamers as needed -->
+</div>
 </body>
 </html>
