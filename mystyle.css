@@ -75,12 +75,13 @@ input:valid {
 }
 
 
-
-
+/* my twitch link button */
 .buttonTwitch {
   background-color: white;
   color: black;
   border: 2px solid #6441a5;
+  width: 100px;
+  height: 20px;
 }
 
 .buttonTwitch:hover {
@@ -88,47 +89,39 @@ input:valid {
         color: white;
     }
 
-.buttonTwitch2 {
-  background-color: white;
-  color: black;
-  border: 2px solid #6441a5;
-}
-
-.buttonTwitch2:hover {
-        background-color: #6441a5;
-        color: white;
-    }
-
-
-/*END TWITCH LINK BUTTONS*/
-
-/* SOCIALS */
-.buttonInsta {
-  background-color: white;
-  color: black;
-  border: 2px solid #FFC0CB;
-}
-
-.buttonInsta:hover {
-  background-color: #FFC0CB;
-  color: white;
-}
-
+/* dustingillis.online button */
 .buttonResume {
   background-color: white;
   color: black;
   border: 2px solid #AB822E;
+  width:100px;
+  height:20px;
 }
 
 .buttonResume:hover {
   background-color: #AB822E;
   color: white;
 }
+/* instagram button */
+.buttonInsta {
+  background-color: white;
+  color: black;
+  border: 2px solid #FFC0CB;
+  width:100px;
+  height:20px;
+}
 
+.buttonInsta:hover {
+  background-color: #FFC0CB;
+  color: white;
+}
+/* snapchat button */
 .buttonSnap {
   background-color: white;
   color: black;
   border: 2px solid #FFFF00;
+  width:100px;
+  height:20px;
 }
 
 .buttonSnap:hover {
@@ -136,11 +129,13 @@ input:valid {
   color: white;
 
 }
-
+/* twitter button */
 .buttonTwt {
   background-color: white;
   color: black;
   border: 2px solid #008AD8;
+  width: 100px;
+  height: 20px;
 }
 
 .buttonTwt:hover {
@@ -148,96 +143,26 @@ input:valid {
         color: white;
     }
 
-
+/* gta rp button */
 .buttonRpquick {
   background-color: white;
   color: black;
   border: 2px solid #04AA6D;
+  width:100px;
+  height:20px;
 }
 
 .buttonRpquick:hover {
   background-color: #04AA6D;
   color: white;
+  }
+
+/* button centering */
+.buttonCentering{
+
+  text-align: center;
+
 }
-
-
-
-/* BUTTON POS + SIZES */
-/* SOCIAL BUTTTONS */
-
-.buttonSnap {
-       top:40%;
-       left:40%;
-       width:100px;
-       height:20px;
-       position: absolute;
-       z-index: 2;
-
-     }
-.buttonTwt {
-    top: 40%;
-    left: 50%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
-
-.buttonInsta {
-       top:30%;
-       left:40%;
-       width:100px;
-       height:20px;
-       position: absolute;
-       z-index: 2;
-
-     }
-
- .buttonResume {
-       top:20%;
-       left:40%;
-       width:100px;
-       height:20px;
-       position: absolute;
-       z-index: 2;
-
-     }
-
-/* TWITCH LINK BUTTONS */
-
-
-
-
-.buttonTwitch {
-    top: 80%;
-    left: 40%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
-
-.buttonTwitch2 {
-    top: 20%;
-    left: 50%;
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    z-index: 2;
-}
-
-
-.buttonRpquick {
-       top:30%;
-       left:50%;
-       width:100px;
-       height:20px;
-       position: absolute;
-       z-index: 2;
-
-     }
-
-
 
 
 
