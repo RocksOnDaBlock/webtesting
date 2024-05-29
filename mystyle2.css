@@ -16,6 +16,11 @@
     text-align: center;
   }
 
+.indexBR {
+    text-align: center;
+    cursor:default;
+  }
+
 
 .button {
   border: none;

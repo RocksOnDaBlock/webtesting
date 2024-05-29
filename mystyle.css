@@ -73,7 +73,7 @@ input:valid {
   color: black;
   border: 2px solid #04AA6D;
   width:100px;
-  height:90px;
+  height:auto;
 }
 
 .buttonEnter:hover {
@@ -102,7 +102,7 @@ input:valid {
   color: black;
   border: 2px solid #AB822E;
   width:100px;
-  height:20px;
+  height: auto;
 }
 
 .buttonResume:hover {
@@ -115,7 +115,7 @@ input:valid {
   color: black;
   border: 2px solid #FFC0CB;
   width:100px;
-  height:20px;
+  height: auto;
 }
 
 .buttonInsta:hover {
@@ -128,7 +128,7 @@ input:valid {
   color: black;
   border: 2px solid #FFFF00;
   width:100px;
-  height:20px;
+  height: auto;
 }
 
 .buttonSnap:hover {
@@ -142,7 +142,7 @@ input:valid {
   color: black;
   border: 2px solid #008AD8;
   width: 100px;
-  height: 20px;
+  height: auto;
 }
 
 .buttonTwt:hover {
@@ -156,7 +156,7 @@ input:valid {
   color: black;
   border: 2px solid #04AA6D;
   width:100px;
-  height:20px;
+  height: auto;
 }
 
 .buttonRpquick:hover {
