@@ -7,9 +7,16 @@ body {
   text-align: center;
 }
 
-.header p {
+.header h2{
   color: #6441a5;
   text-align: center;
+}
+
+.header p {
+  color: indigo;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'customFont';
 }
 
 .container {
@@ -21,6 +28,11 @@ body {
 .indexBR {
   text-align: center;
   cursor:default;
+}
+
+@font-face {
+  font-family: customFont;
+  src: url("/IMG/GotHeroin-5XoL.ttf");
 }
 
 
