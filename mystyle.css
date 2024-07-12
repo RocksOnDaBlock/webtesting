@@ -12,6 +12,13 @@ body {
   text-align: center;
 }
 
+.header h5{
+  color: yellow;
+  text-align: center;
+  font-family: 'customFont2';
+}
+
+
 .header p {
   color: indigo;
   font-size: 60px;
@@ -34,7 +41,10 @@ body {
   font-family: customFont;
   src: url("/IMG/GotHeroin-5XoL.ttf");
 }
-
+@font-face {
+  font-family: customFont2;
+  src: url("/IMG/F77MinecraftRegular-0VYv.ttf");
+}
 
 /* footer */
 .footer {
