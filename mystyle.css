@@ -1,5 +1,5 @@
 body {
-    background-color: teal;
+  background-color: #000;
 }
 
 .header{
@@ -18,7 +18,6 @@ body {
   font-family: 'customFont2';
 }
 
-
 .header p {
   color: indigo;
   font-size: 60px;
@@ -30,7 +29,6 @@ body {
   width: 100%;
   text-align: center;
 }
-
 
 .indexBR {
   text-align: center;
@@ -45,31 +43,6 @@ body {
   font-family: customFont2;
   src: url("/IMG/F77MinecraftRegular-0VYv.ttf");
 }
-
-/* footer */
-.footer {
-  position: fixed;
-  padding: 1px;
-  text-align: center;
-  background: transparent;
-  color:white;
-  bottom: 0%;
-  left: 0%;
-  font-size: 10px;
-}
-
-input:invalid {
-  border: 2px dashed red;
-}
-
-input:invalid:required {
-  background-image: linear-gradient(to right, pink, lightgreen);
-}
-
-input:valid {
-  border: 2px solid black;
-}
-
 
 .button {
   border: none;
@@ -102,96 +75,38 @@ input:valid {
   background-color: #04AA6D;
   color: white;
 }
-
-
-/* my twitch link button */
-.buttonTwitch {
-  background-color: white;
-  color: black;
-  border: 2px solid #6441a5;
-  width: 100px;
-  height: 20px;
+/* button centering */
+.buttonCentering{
+ text-align: center;
 }
 
-.buttonTwitch:hover {
-        background-color: #6441a5;
-        color: white;
-    }
-
-/* dustingillis.online button */
-.buttonResume {
-  background-color: white;
-  color: black;
-  border: 2px solid #AB822E;
-  width:100px;
-  height: auto;
-}
-
-.buttonResume:hover {
-  background-color: #AB822E;
-  color: white;
-}
-/* instagram button */
-.buttonInsta {
-  background-color: white;
-  color: black;
-  border: 2px solid #FFC0CB;
-  width:100px;
-  height: auto;
-}
-
-.buttonInsta:hover {
-  background-color: #FFC0CB;
-  color: white;
-}
-/* snapchat button */
-.buttonSnap {
-  background-color: white;
-  color: black;
-  border: 2px solid #FFFF00;
-  width:100px;
-  height: auto;
-}
-
-.buttonSnap:hover {
-  background-color: #FFFF00;
-  color: white;
-
-}
-/* twitter button */
-.buttonTwt {
-  background-color: white;
-  color: black;
-  border: 2px solid #008AD8;
-  width: 100px;
-  height: auto;
-}
-
-.buttonTwt:hover {
-        background-color: #008AD8;
-        color: white;
-    }
-
-/* gta rp button */
-.buttonRpquick {
+.buttonSnake{
   background-color: white;
   color: black;
   border: 2px solid #04AA6D;
   width:100px;
-  height: auto;
+  height:auto;
 }
 
-.buttonRpquick:hover {
+.buttonSnake:hover {
   background-color: #04AA6D;
   color: white;
-  }
-
-/* button centering */
-.buttonCentering{
-
-  text-align: center;
-
 }
+/* footer */
+.footer {
+  position: fixed;
+  padding: 1px;
+  text-align: center;
+  background: transparent;
+  color:white;
+  bottom: 0%;
+  left: 0%;
+  font-size: 10px;
+}
+
+
+
+
 
 
 
