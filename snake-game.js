@@ -103,3 +103,28 @@ function checkCollision(head, array) {
 }
 
 game = setInterval(drawSnake, 100);
+
+document.addEventListener('keydown', direction);
+canvas.addEventListener('touchstart', handleTouch);
+
+function handleTouch(event) {
+    const x = event.touches[0].clientX - canvas.offsetLeft;
+    const y = event.touches[0].clientY - canvas.offsetTop;
+
+    const deltaX = x - snake[0].x;
+    const deltaY = y - snake[0].y;
+
+    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+        if (deltaX > 0 && d !== 'LEFT') {
+            d = 'RIGHT';
+        } else if (deltaX < 0 && d !== 'RIGHT') {
+            d = 'LEFT';
+        }
+    } else {
+        if (deltaY > 0 && d !== 'UP') {
+            d = 'DOWN';
+        } else if (deltaY < 0 && d !== 'DOWN') {
+            d = 'UP';
+        }
+    }
+}
