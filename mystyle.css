@@ -105,7 +105,27 @@ body {
 }
 
 
+/* twitch player styles */
 
+  .twitch-embed-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+            max-width: 960px;
+            height: 540px;
+            border: none;
+        }
+        .offline-message {
+            display: none;
+            font-size: 18px;
+            color: gray;
+            margin-top: 10px;
+        }
 
 
 
